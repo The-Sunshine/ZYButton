@@ -14,8 +14,8 @@
 		220A739C2772EFE600CB9D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220A739B2772EFE600CB9D81 /* Assets.xcassets */; };
 		220A739F2772EFE600CB9D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220A739D2772EFE600CB9D81 /* LaunchScreen.storyboard */; };
 		220A73A22772EFE600CB9D81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A73A12772EFE600CB9D81 /* main.m */; };
-		220A73AC2772F00200CB9D81 /* ZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 220A73A92772F00200CB9D81 /* ZYButton.m */; };
 		519FFA4414DCE6E634D39C93 /* Pods_ZYButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 178486BFFE5E93671C01D712 /* Pods_ZYButton.framework */; };
+		5ACCBE1C27737FBF001D8183 /* ZYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACCBE1B27737FBF001D8183 /* ZYButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +32,9 @@
 		220A739E2772EFE600CB9D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220A73A02772EFE600CB9D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220A73A12772EFE600CB9D81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		220A73A92772F00200CB9D81 /* ZYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYButton.m; sourceTree = "<group>"; };
-		220A73AB2772F00200CB9D81 /* ZYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYButton.h; sourceTree = "<group>"; };
 		5A43CB5D63D1F6E1F66E60A0 /* Pods-ZYButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYButton.debug.xcconfig"; path = "Target Support Files/Pods-ZYButton/Pods-ZYButton.debug.xcconfig"; sourceTree = "<group>"; };
+		5ACCBE1A27737FBF001D8183 /* ZYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYButton.h; sourceTree = "<group>"; };
+		5ACCBE1B27737FBF001D8183 /* ZYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYButton.m; sourceTree = "<group>"; };
 		D848BA1D4F43ADCD611BA330 /* Pods-ZYButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYButton.release.xcconfig"; path = "Target Support Files/Pods-ZYButton/Pods-ZYButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,7 @@
 				220A73932772EFE300CB9D81 /* SceneDelegate.m */,
 				220A73952772EFE300CB9D81 /* ViewController.h */,
 				220A73962772EFE300CB9D81 /* ViewController.m */,
-				220A73A82772F00200CB9D81 /* ZYButton */,
+				5ACCBE1927737FA1001D8183 /* ZYButton */,
 				220A73982772EFE300CB9D81 /* Main.storyboard */,
 				220A739B2772EFE600CB9D81 /* Assets.xcassets */,
 				220A739D2772EFE600CB9D81 /* LaunchScreen.storyboard */,
@@ -95,11 +95,11 @@
 			path = ZYButton;
 			sourceTree = "<group>";
 		};
-		220A73A82772F00200CB9D81 /* ZYButton */ = {
+		5ACCBE1927737FA1001D8183 /* ZYButton */ = {
 			isa = PBXGroup;
 			children = (
-				220A73AB2772F00200CB9D81 /* ZYButton.h */,
-				220A73A92772F00200CB9D81 /* ZYButton.m */,
+				5ACCBE1A27737FBF001D8183 /* ZYButton.h */,
+				5ACCBE1B27737FBF001D8183 /* ZYButton.m */,
 			);
 			path = ZYButton;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220A73AC2772F00200CB9D81 /* ZYButton.m in Sources */,
+				5ACCBE1C27737FBF001D8183 /* ZYButton.m in Sources */,
 				220A73972772EFE300CB9D81 /* ViewController.m in Sources */,
 				220A73912772EFE300CB9D81 /* AppDelegate.m in Sources */,
 				220A73A22772EFE600CB9D81 /* main.m in Sources */,
